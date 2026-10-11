@@ -1,0 +1,3 @@
+obj-m += swift_ane_probe.o
+swift_ane_probe-y := module.o ane_core.o
+ccflags-y += -Werror
